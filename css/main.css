@@ -1,0 +1,197 @@
+html
+{
+    font-family: 'Mina', sans-serif;
+}
+
+#accueil
+{
+    color: white;
+}
+
+
+#etat_civ_g
+{
+    float: left;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 50%;
+    margin-left: 8vw;
+}
+
+#etat_civ_d
+{
+    float: right;
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 50%;
+    margin-right: 6vw;
+}
+
+#texte_accueil
+{
+    margin-left: 33vw;
+    margin-top: 15vh;
+}
+
+#photo
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+
+#photo_img
+{
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    margin-top: -5%;
+    /* transform: rotate(180deg); */
+}
+
+#img_depart
+{
+    margin-left: 40vw;
+    width: 6vw;
+}
+
+#img_postdepart
+{
+    margin-left: 55vw;
+    width: 6vw;
+}
+
+.plac_lien_reseau
+{
+    width: 0vw;
+}
+
+#box_reseaux
+{
+    display: flex;
+    margin-bottom: 10vh;
+}
+
+/* #nav_bar
+{
+    position: fixed;
+    bottom: 0;
+    background-color: #30B8B8;
+    height: 12vh;
+    justify-content: space-around;
+    display: flex;
+    z-index: 10;
+    width: 100%;
+} */
+
+/* .box_nav_bar
+{
+    display: flex;
+    width: 33%;
+    background-color: darkblue;
+    justify-content: center;
+    vertical-align: middle;
+} */
+
+/* #fleche_bas_nav_bar_box
+{
+    width: 33%;
+}
+
+#fleche_haut_nav_bar_box
+{
+    width: 33%;
+}
+
+.raccourcis_slide
+{
+    position: relative;
+}
+
+#fleche_nav_bar_bas
+{
+    width: 6vw;
+}
+
+#fleche_nav_bar_haut
+{
+    width: 6vw;
+}
+
+.btns_menu
+{
+    width: 6vw;
+    display: inline-block;
+} */
+
+/* Enlever les petits points du menu */
+.fp-slidesNav
+{
+    display: none;
+}
+
+#fp-nav
+{
+    display: none;
+}
+
+/*-----------------------------------DEUXIEME SLIDE------------------------------------------------- */
+
+#div_exte
+{
+    text-align: center;
+    color: white;
+}
+
+.bleu_violet
+{
+    background-color: #5c2e99;
+}
+
+.bleu_roi
+{
+    background-color: #3a369d;
+}
+
+#tab_techno
+{
+    margin: 0 auto;
+}
+
+#livre
+{
+    height: 6vh;
+}
+
+#clavier
+{
+    height: 6vh;
+}
+
+ul
+{
+    padding-right: 3vw;
+}
+
+.lien_projet
+{
+    color: white;
+}
+
+.mail
+{
+    color: white;
+}
+
+/* Général */
+ul
+{
+    list-style-type: none;
+}

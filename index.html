@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PINEIRO Thomas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.fullpage.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet"> 
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- la nav bar a été enlevée a cause de soucis avec les ancres (elles font légèrement bugger le systeme de slides et l'UX en est grandement affectée) -->
+    <!-- <div id="nav_bar">
+            <div class="box_nav_bar"> 
+                <a href="#slide_1" class="raccourcis_slide"><img src="images/cercle_fonce_txtcom.png" class="btns_menu"></a>
+                <a href="#slide_2" class="raccourcis_slide"><img src="images/cercle_fonce_txt.png" class="btns_menu"></a>
+            </div>
+            <div id="box_nav_bar_mid">
+                <a href="#slide_1" id="fleche_bas_nav_bar_box"><img src="images/arrows.png" id="fleche_nav_bar_bas"></a>
+                <a href="#photo" id="fleche_haut_nav_bar_box"><img src="images/arrows_u.png" id="fleche_nav_bar_haut"></a>
+            </div>
+            <div class="box_nav_bar">
+                <a href="#slide_3" class="raccourcis_slide"><img src="images/cercle_fonce_txtep.png" class="btns_menu"></a>
+                <a href="#slide_4" class="raccourcis_slide"><img src="images/cercle_fonce_txtinc.png" class="btns_menu"></a>
+            </div>
+    </div> -->
+    <div id="fullpage">
+        <div class="section" id="accueil">
+            <div id="etat_civ_g">
+                <p> PINEIRO Thomas <br/> 22 ans <br/> 07 87 36 32 85 </p>
+            </div>
+            <div id="etat_civ_d">
+                <p> Permis B <br> Mobile en Midi-Pyrénées <br/> <a class="mail" href="pineirothomas@orange.fr">pineirothomas@orange.fr</a> </p>
+            </div>
+            <div id="photo">
+            <img id="photo_img" src="images/me.jpg">
+            </div>
+            <div id="box_reseaux">
+                <a class="plac_lien_reseau" href="https://github.com/ThomasPineiro"><img src="images/gh.png" id="img_depart" class="logo_reseau"></a>
+                <a class="plac_lien_reseau" href="https://www.linkedin.com/in/thomas-pineiro-8a584311a/"><img src="images/in.png" class="logo_reseau" id="img_postdepart"> </a>
+                <p id="texte_accueil">Veuillez scroller vers le bas ou bien appuyez sur votre flèche du bas</p>
+            </div>
+        </div>
+        <!-- Seconde page -->
+        <div class="section" id="div_exte">
+            <div class="slide bleu_roi" data-anchor="slide1">
+                <h1>Formation</h1>
+                <ul>
+                    <li>2017/2018 : Formation développeur de sites web et d'applications mobiles (pour obtention de titre professionnel développeur logiciel de niveau III) </li>
+                    <li>2015 : Formation analyste programmeur : développement d'applis en java ; création de pagesweb enHTML/CSS ; Création gestion de BDD avec MySQL</li>
+                    <li>2014 : Bac S, Première année license informatique (UPS) </li> 
+                </ul>
+            </div>
+            <div class="slide bleu_violet" data-anchor="slide2">
+                    <h1>Expériences professionelles</h1>
+                    <ul>
+                        <li>2018 : Stage effectuée chez Appstud, entreprise développant des applications mobiles tout support ( réalisation de site vitrine avec Drupal 8, durée du stage : 2 mois et 2 semaines)</li>
+                        <li>2016 - 2017 : Intérimaire (plusieurs missions réalisées : inventaires, employé de libre service dans des grandes surfaces, remplacements)</li>
+                        <li>07/2011 - 08/2011 : Ouvrier agricole</li>
+                    </ul>
+                </div>
+            <div class="slide bleu_roi" data-anchor="slide3">
+                <h1>Compétences</h1>
+                <table class="table" id="tab_techno">
+                    <thead>
+                      <tr>
+                        <th scope="col">Langage / Pseudo-langage / Technologie |</th>
+                        <th scope="col">Ada |</th>
+                        <th scope="col">Ajax |</th>
+                        <th scope="col">CSS |</th>
+                        <th scope="col">C ++ |</th>
+                        <th scope="col">C# |</th>
+                        <th scope="col">Drupal |</th>
+                        <th scope="col">Html |</th>
+                        <th scope="col">Java |</th>
+                        <th scope="col">Javascript |</th>
+                        <th scope="col">PHP |</th>
+                        <th scope="col">SQL |</th>
+                        <th scope="col">WordPress </td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Pratiqué moins d'un mois</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>✓</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>✓</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Pratiqué entre un et deux mois</th>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td></td>
+                        <td></td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Pratiqué plus de deux mois</th>
+                        <td></td>
+                        <td></td>
+                        <td>✓</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>✓</td>
+                        <td></td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td>✓</td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                </table>
+
+                <div class="col_centrée">
+                    <p>Anglais : B2</p>
+                    <p>Méthodes agiles</p>
+                    <p>SCRUM</p>
+                </div>
+            </div>
+            <div class="slide bleu_violet" data-anchor="slide4">
+                <h1>Projets</h1>
+                <p>Voici différents projets que j'ai réalisés en cours de formation (Simplon 2017 2018)</p>
+                <a href="https://thomaspineiro.github.io/Api_meteorologique/" class="lien_projet">Utilisation d'API</a>
+                <a href="https://thomaspineiro.github.io/modal_bootstrap/" class="lien_projet">Utilisation de modal bootstrap</a> 
+                <a href="https://thomaspineiro.github.io/Jeu_juste_prix/" class="lien_projet">Petit jeu en jquery</a>
+                <a href="https://thomaspineiro.github.io/Calculatrice_perso/" class="lien_projet">Calculatrice en javascript</a>
+                <a href="https://thomaspineiro.github.io/Jeu_boutons/" class="lien_projet">Jeu avec des boutons</a>
+                <p>N'hésitez pas à faire un sur mon github si l'envie vous en prend,la plupart de mes codes ne sont pas trop commentés certains de mes projets sont très peu remplis étant donnés qu'il s'agit pour la plupart de projets réalisés en formation sur lesquels je ne revient pas</p>  
+            </div>
+            <div class="slide bleu_roi" data-anchor="slide5">
+                <h1>Contact</h1>
+                <a  class="mail" href="mailto:pineirothomas@orange.fr">pineirothomas@orange.fr</a>
+                <p>13 impasse des pinsons</p>
+                <p>La Tour du Crieu</p>
+                <p>07 87 36 32 85</p>
+                <a href="images/cv.pdf"><input type="button" value="Télécharger la version PDF"></a>
+            </div> 
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.fullpage.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

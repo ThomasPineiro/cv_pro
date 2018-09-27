@@ -1,0 +1,10 @@
+I'm having some weird issues with my slides when i click anchors links. When i scroll down to the page by clicking the link in the middle (the one with the img) or when im clicking the links in my navbar there seems to be a bug which stop my slides from moving. I can't switch between slides, the links don't work like they should do (for instance if i click the link related to my 2nd slide it will bring up the first one or the third one). I think this bug is triggered when using the anchors but i can't seem to fix it.
+
+
+Here is the link
+
+Steps to reproduce it
+1.Click any link
+2.Try and play with the other links
+
+I tested it on mozilla and chromium, the issue is present on both navigators.
